@@ -4,6 +4,8 @@ import time
 import threading
 import random
 import msvcrt
+import logging
+from datetime import datetime
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 from src.rooms_ascii import ROOMS
 from src.cameras_ascii import CAMERAS
@@ -12,16 +14,23 @@ from src.energy_system import calculate_energy_interval
 from src.energy_system import energy_and_refresh_thread
 from src.stats import update_stats, print_stats
 
+# Ensure the logs directory exists
+LOGS_DIR = os.path.join(os.path.dirname(__file__), 'logs')
+os.makedirs(LOGS_DIR, exist_ok=True)
+
 def load_room(left_closed, right_closed, left_anim=None, right_anim=None):
-    # (czemu to nie dziala: jeśli nie ma pliku w ROOMS, zwróci KeyError)
     if left_anim == 'freddy':
         return ROOMS['left_freddy']
     elif left_anim == 'chica':
         return ROOMS['left_chica']
-    elif right_anim == 'bonnie':
-        return ROOMS['right_bonnie']
+    elif left_anim == 'bonnie':
+        return ROOMS['left_bonnie']
+    elif right_anim == 'freddy':
+        return ROOMS['right_freddy']
     elif right_anim == 'chica':
         return ROOMS['right_chica']
+    elif right_anim == 'bonnie':
+        return ROOMS['right_bonnie']
     elif left_closed and right_closed:
         return ROOMS['both_closed']
     elif left_closed:
@@ -103,6 +112,35 @@ def select_ai_levels():
                 print("Podaj liczbę całkowitą.")
     return ai_levels
 
+# Consolidate logging setup
+LOGGING_DIR = os.path.join(LOGS_DIR, 'logging')
+os.makedirs(LOGGING_DIR, exist_ok=True)
+logging_log_filename = os.path.join(LOGGING_DIR, f'game_logging_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log')
+
+# Configure a single logger for game events
+game_logger = logging.getLogger("game_logging")
+if not game_logger.hasHandlers():
+    game_logger.setLevel(logging.INFO)
+    logging_handler = logging.FileHandler(logging_log_filename)
+    logging_handler.setFormatter(logging.Formatter('%(asctime)s - %(message)s'))
+    game_logger.addHandler(logging_handler)
+
+# Ensure the animatronic_ai logs directory exists
+ANIMATRONIC_LOGS_DIR = os.path.join(LOGS_DIR, 'animatronic_ai')
+os.makedirs(ANIMATRONIC_LOGS_DIR, exist_ok=True)
+animatronic_log_filename = os.path.join(ANIMATRONIC_LOGS_DIR, f'animatronic_ai_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log')
+
+# Configure a single logger for animatronic AI events
+animatronic_logger = logging.getLogger("animatronic_ai")
+if not animatronic_logger.hasHandlers():
+    animatronic_logger.setLevel(logging.INFO)
+    animatronic_handler = logging.FileHandler(animatronic_log_filename)
+    animatronic_handler.setFormatter(logging.Formatter('%(asctime)s - %(message)s'))
+    animatronic_logger.addHandler(animatronic_handler)
+
+def log_door_status(state):
+    game_logger.info(f"Door Status: Left Closed={state['left_closed']}, Right Closed={state['right_closed']}")
+
 def main():
     if not main_menu():
         return
@@ -133,9 +171,18 @@ def main():
             'random_event': None,
             'random_event_timer': 0
         }
+
         t = threading.Thread(target=energy_and_refresh_thread, args=(state, chica_ai, bonnie_ai, freddy_ai, foxy_ai), daemon=True)
         t.start()
         last_minute = time.time()
+        def periodic_logging():
+            while not state['game_over']:
+                log_door_status(state)
+                game_logger.info(f"Energy: {state['energy']}%, Night: {state['night']}, Hour: {state['minute']+1}:00")
+                threading.Event().wait(3)  # Log every 3 seconds
+
+        logging_thread = threading.Thread(target=periodic_logging, daemon=True)
+        logging_thread.start()
         while not state['game_over']:
             # System nocy: 1 minuta IRL = 1 godzina w grze
             now = time.time()

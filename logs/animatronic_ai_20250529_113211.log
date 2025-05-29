@@ -1,0 +1,328 @@
+2025-05-29 11:32:14,724 - root - Initialized chica AI with level 20, move interval 15, move range 20.
+2025-05-29 11:32:14,724 - root - Initialized bonnie AI with level 20, move interval 20, move range 20.
+2025-05-29 11:32:14,724 - root - Initialized freddy AI with level 20, move interval 17, move range 40.
+2025-05-29 11:32:14,724 - root - Initialized foxy AI with level 10, move interval 10, move range 20.
+2025-05-29 11:32:14,726 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:32:14,729 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:32:17,743 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:32:17,743 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:32:20,748 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:32:20,748 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:32:23,764 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:32:23,764 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:32:24,728 - root - foxy rolled 6 (<= 10) and moved to position 0.
+2025-05-29 11:32:26,768 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:32:26,768 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:32:29,729 - root - chica rolled 1 (<= 20) and moved to position 0.
+2025-05-29 11:32:29,777 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:32:29,777 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:32:31,732 - root - freddy rolled 13 (<= 20) and moved to position 0.
+2025-05-29 11:32:32,786 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:32:32,786 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:32:34,731 - root - foxy rolled 7 (<= 10) and moved to position 1.
+2025-05-29 11:32:34,731 - root - bonnie rolled 15 (<= 20) and moved to position 0.
+2025-05-29 11:32:35,801 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:32:35,801 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:32:38,812 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:32:38,812 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:32:41,817 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:32:41,817 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:32:44,742 - root - chica rolled 14 (<= 20) and moved to position 1.
+2025-05-29 11:32:44,819 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:32:44,819 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:32:47,822 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:32:47,822 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:32:48,745 - root - freddy rolled 18 (<= 20) and moved to position 1.
+2025-05-29 11:32:50,826 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:32:50,826 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:32:53,835 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:32:53,835 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:32:54,731 - root - bonnie rolled 20 (<= 20) and moved to position 1.
+2025-05-29 11:32:54,747 - root - foxy rolled 3 (<= 10) and moved to position 2.
+2025-05-29 11:32:56,840 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:32:56,840 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:32:59,756 - root - chica rolled 18 (<= 20) and moved to position 2.
+2025-05-29 11:32:59,850 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:32:59,850 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:33:02,852 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:33:02,852 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:33:05,862 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:33:05,862 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:33:08,871 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:33:08,871 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:33:11,885 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:33:11,885 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:33:14,732 - root - bonnie rolled 10 (<= 20) and moved to position 2.
+2025-05-29 11:33:14,763 - root - chica rolled 1 (<= 20) and moved to position 3.
+2025-05-29 11:33:14,887 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:33:14,887 - game_logging - Energy: 100%, Night: 1, Hour: 2:00
+2025-05-29 11:33:17,902 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:33:17,902 - game_logging - Energy: 100%, Night: 1, Hour: 2:00
+2025-05-29 11:33:20,909 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:33:20,909 - game_logging - Energy: 100%, Night: 1, Hour: 2:00
+2025-05-29 11:33:23,909 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:33:23,909 - game_logging - Energy: 100%, Night: 1, Hour: 2:00
+2025-05-29 11:33:24,771 - root - foxy rolled 5 (<= 10) and moved to position 3.
+2025-05-29 11:33:26,910 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:33:26,910 - game_logging - Energy: 100%, Night: 1, Hour: 2:00
+2025-05-29 11:33:29,769 - root - chica rolled 11 (<= 20) and moved to position 4.
+2025-05-29 11:33:29,924 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:33:29,924 - game_logging - Energy: 100%, Night: 1, Hour: 2:00
+2025-05-29 11:33:32,931 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:33:32,931 - game_logging - Energy: 100%, Night: 1, Hour: 2:00
+2025-05-29 11:33:34,744 - root - bonnie rolled 11 (<= 20) and moved to position 3.
+2025-05-29 11:33:34,776 - root - foxy rolled 6 (<= 10) and moved to position 4.
+2025-05-29 11:33:35,932 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:33:35,932 - game_logging - Energy: 100%, Night: 1, Hour: 2:00
+2025-05-29 11:33:38,936 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:33:38,936 - game_logging - Energy: 100%, Night: 1, Hour: 2:00
+2025-05-29 11:33:39,764 - root - freddy rolled 4 (<= 20) and moved to position 2.
+2025-05-29 11:33:41,944 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:33:41,944 - game_logging - Energy: 100%, Night: 1, Hour: 2:00
+2025-05-29 11:33:44,784 - root - chica rolled 11 (<= 20) and moved to position 5.
+2025-05-29 11:33:44,957 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:33:44,957 - game_logging - Energy: 100%, Night: 1, Hour: 2:00
+2025-05-29 11:33:47,971 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:33:47,971 - game_logging - Energy: 100%, Night: 1, Hour: 2:00
+2025-05-29 11:33:50,978 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:33:50,978 - game_logging - Energy: 100%, Night: 1, Hour: 2:00
+2025-05-29 11:33:53,992 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:33:53,992 - game_logging - Energy: 100%, Night: 1, Hour: 2:00
+2025-05-29 11:33:54,750 - root - bonnie rolled 0 (<= 20) and moved to position 4.
+2025-05-29 11:33:54,797 - root - foxy rolled 6 (<= 10) and moved to position 5.
+2025-05-29 11:33:57,003 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:33:57,003 - game_logging - Energy: 100%, Night: 1, Hour: 2:00
+2025-05-29 11:33:59,795 - root - chica rolled 20 (<= 20) and moved to position 6.
+2025-05-29 11:33:59,795 - root - chica reached the final position: 5 (door).
+2025-05-29 11:34:00,015 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:34:00,015 - game_logging - Energy: 100%, Night: 1, Hour: 2:00
+2025-05-29 11:34:03,017 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:34:03,017 - game_logging - Energy: 100%, Night: 1, Hour: 2:00
+2025-05-29 11:34:06,030 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:34:06,030 - game_logging - Energy: 100%, Night: 1, Hour: 2:00
+2025-05-29 11:34:09,033 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:34:09,033 - game_logging - Energy: 100%, Night: 1, Hour: 2:00
+2025-05-29 11:34:12,040 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:34:12,040 - game_logging - Energy: 100%, Night: 1, Hour: 2:00
+2025-05-29 11:34:14,759 - root - bonnie rolled 7 (<= 20) and moved to position 5.
+2025-05-29 11:34:14,807 - root - chica rolled 15 (<= 20) and moved to position 6.
+2025-05-29 11:34:14,807 - root - chica reached the final position: 5 (door).
+2025-05-29 11:34:15,054 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:34:15,054 - game_logging - Energy: 100%, Night: 1, Hour: 3:00
+2025-05-29 11:34:18,066 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:34:18,066 - game_logging - Energy: 100%, Night: 1, Hour: 3:00
+2025-05-29 11:34:21,076 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:34:21,076 - game_logging - Energy: 100%, Night: 1, Hour: 3:00
+2025-05-29 11:34:24,082 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:34:24,082 - game_logging - Energy: 100%, Night: 1, Hour: 3:00
+2025-05-29 11:34:27,083 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:34:27,083 - game_logging - Energy: 100%, Night: 1, Hour: 3:00
+2025-05-29 11:34:29,820 - root - chica rolled 14 (<= 20) and moved to position 6.
+2025-05-29 11:34:29,820 - root - chica reached the final position: 5 (door).
+2025-05-29 11:34:30,085 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:34:30,085 - game_logging - Energy: 100%, Night: 1, Hour: 3:00
+2025-05-29 11:34:33,090 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:34:33,090 - game_logging - Energy: 100%, Night: 1, Hour: 3:00
+2025-05-29 11:34:34,761 - root - bonnie rolled 8 (<= 20) and moved to position 6.
+2025-05-29 11:34:34,761 - root - bonnie reached the final position: 5 (door).
+2025-05-29 11:34:36,097 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:34:36,097 - game_logging - Energy: 100%, Night: 1, Hour: 3:00
+2025-05-29 11:34:39,100 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:34:39,100 - game_logging - Energy: 100%, Night: 1, Hour: 3:00
+2025-05-29 11:34:42,102 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:34:42,102 - game_logging - Energy: 100%, Night: 1, Hour: 3:00
+2025-05-29 11:34:44,828 - root - chica rolled 4 (<= 20) and moved to position 6.
+2025-05-29 11:34:44,828 - root - chica reached the final position: 5 (door).
+2025-05-29 11:34:45,109 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:34:45,109 - game_logging - Energy: 100%, Night: 1, Hour: 3:00
+2025-05-29 11:34:48,119 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:34:48,119 - game_logging - Energy: 100%, Night: 1, Hour: 3:00
+2025-05-29 11:34:51,124 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:34:51,124 - game_logging - Energy: 100%, Night: 1, Hour: 3:00
+2025-05-29 11:34:54,135 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:34:54,135 - game_logging - Energy: 100%, Night: 1, Hour: 3:00
+2025-05-29 11:34:54,763 - root - bonnie rolled 17 (<= 20) and moved to position 6.
+2025-05-29 11:34:54,763 - root - bonnie reached the final position: 5 (door).
+2025-05-29 11:34:54,843 - root - foxy rolled 7 (<= 10) and moved to position 6.
+2025-05-29 11:34:54,843 - root - foxy reached the final position: 5 (door).
+2025-05-29 11:34:57,139 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:34:57,139 - game_logging - Energy: 100%, Night: 1, Hour: 3:00
+2025-05-29 11:34:59,841 - root - chica rolled 11 (<= 20) and moved to position 6.
+2025-05-29 11:34:59,841 - root - chica reached the final position: 5 (door).
+2025-05-29 11:35:00,155 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:35:00,155 - game_logging - Energy: 100%, Night: 1, Hour: 3:00
+2025-05-29 11:35:03,160 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:35:03,160 - game_logging - Energy: 100%, Night: 1, Hour: 3:00
+2025-05-29 11:35:04,794 - root - freddy rolled 8 (<= 20) and moved to position 3.
+2025-05-29 11:35:06,175 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:35:06,175 - game_logging - Energy: 100%, Night: 1, Hour: 3:00
+2025-05-29 11:35:09,179 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:35:09,179 - game_logging - Energy: 100%, Night: 1, Hour: 3:00
+2025-05-29 11:35:12,190 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:35:12,190 - game_logging - Energy: 100%, Night: 1, Hour: 3:00
+2025-05-29 11:35:14,771 - root - bonnie rolled 0 (<= 20) and moved to position 6.
+2025-05-29 11:35:14,771 - root - bonnie reached the final position: 5 (door).
+2025-05-29 11:35:14,850 - root - chica rolled 3 (<= 20) and moved to position 6.
+2025-05-29 11:35:14,850 - root - chica reached the final position: 5 (door).
+2025-05-29 11:35:15,195 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:35:15,195 - game_logging - Energy: 100%, Night: 1, Hour: 4:00
+2025-05-29 11:35:18,199 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:35:18,199 - game_logging - Energy: 100%, Night: 1, Hour: 4:00
+2025-05-29 11:35:21,212 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:35:21,212 - game_logging - Energy: 100%, Night: 1, Hour: 4:00
+2025-05-29 11:35:24,219 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:35:24,219 - game_logging - Energy: 100%, Night: 1, Hour: 4:00
+2025-05-29 11:35:24,880 - root - foxy rolled 9 (<= 10) and moved to position 6.
+2025-05-29 11:35:24,880 - root - foxy reached the final position: 5 (door).
+2025-05-29 11:35:27,224 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:35:27,224 - game_logging - Energy: 100%, Night: 1, Hour: 4:00
+2025-05-29 11:35:29,853 - root - chica rolled 7 (<= 20) and moved to position 6.
+2025-05-29 11:35:29,853 - root - chica reached the final position: 5 (door).
+2025-05-29 11:35:30,232 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:35:30,232 - game_logging - Energy: 100%, Night: 1, Hour: 4:00
+2025-05-29 11:35:33,244 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:35:33,244 - game_logging - Energy: 100%, Night: 1, Hour: 4:00
+2025-05-29 11:35:34,777 - root - bonnie rolled 3 (<= 20) and moved to position 6.
+2025-05-29 11:35:34,777 - root - bonnie reached the final position: 5 (door).
+2025-05-29 11:35:36,248 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:35:36,248 - game_logging - Energy: 100%, Night: 1, Hour: 4:00
+2025-05-29 11:35:38,810 - root - freddy rolled 19 (<= 20) and moved to position 4.
+2025-05-29 11:35:39,249 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:35:39,249 - game_logging - Energy: 100%, Night: 1, Hour: 4:00
+2025-05-29 11:35:42,253 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:35:42,253 - game_logging - Energy: 100%, Night: 1, Hour: 4:00
+2025-05-29 11:35:44,857 - root - chica rolled 2 (<= 20) and moved to position 6.
+2025-05-29 11:35:44,857 - root - chica reached the final position: 5 (door).
+2025-05-29 11:35:44,889 - root - foxy rolled 7 (<= 10) and moved to position 6.
+2025-05-29 11:35:44,889 - root - foxy reached the final position: 5 (door).
+2025-05-29 11:35:45,261 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:35:45,261 - game_logging - Energy: 100%, Night: 1, Hour: 4:00
+2025-05-29 11:35:48,271 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:35:48,271 - game_logging - Energy: 100%, Night: 1, Hour: 4:00
+2025-05-29 11:35:51,280 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:35:51,280 - game_logging - Energy: 100%, Night: 1, Hour: 4:00
+2025-05-29 11:35:54,294 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:35:54,294 - game_logging - Energy: 100%, Night: 1, Hour: 4:00
+2025-05-29 11:35:54,783 - root - bonnie rolled 9 (<= 20) and moved to position 6.
+2025-05-29 11:35:54,783 - root - bonnie reached the final position: 5 (door).
+2025-05-29 11:35:54,895 - root - foxy rolled 4 (<= 10) and moved to position 6.
+2025-05-29 11:35:54,895 - root - foxy reached the final position: 5 (door).
+2025-05-29 11:35:57,296 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:35:57,296 - game_logging - Energy: 100%, Night: 1, Hour: 4:00
+2025-05-29 11:35:59,858 - root - chica rolled 6 (<= 20) and moved to position 6.
+2025-05-29 11:35:59,858 - root - chica reached the final position: 5 (door).
+2025-05-29 11:36:00,311 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:36:00,311 - game_logging - Energy: 100%, Night: 1, Hour: 4:00
+2025-05-29 11:36:03,315 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:36:03,315 - game_logging - Energy: 100%, Night: 1, Hour: 4:00
+2025-05-29 11:36:04,908 - root - foxy rolled 3 (<= 10) and moved to position 6.
+2025-05-29 11:36:04,908 - root - foxy reached the final position: 5 (door).
+2025-05-29 11:36:06,328 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:36:06,328 - game_logging - Energy: 100%, Night: 1, Hour: 4:00
+2025-05-29 11:36:09,329 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:36:09,329 - game_logging - Energy: 100%, Night: 1, Hour: 4:00
+2025-05-29 11:36:12,339 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:36:12,339 - game_logging - Energy: 100%, Night: 1, Hour: 4:00
+2025-05-29 11:36:12,812 - root - freddy rolled 12 (<= 20) and moved to position 5.
+2025-05-29 11:36:14,798 - root - bonnie rolled 1 (<= 20) and moved to position 6.
+2025-05-29 11:36:14,798 - root - bonnie reached the final position: 5 (door).
+2025-05-29 11:36:14,860 - root - chica rolled 3 (<= 20) and moved to position 6.
+2025-05-29 11:36:14,860 - root - chica reached the final position: 5 (door).
+2025-05-29 11:36:15,347 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:36:15,347 - game_logging - Energy: 100%, Night: 1, Hour: 5:00
+2025-05-29 11:36:18,347 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:36:18,347 - game_logging - Energy: 100%, Night: 1, Hour: 5:00
+2025-05-29 11:36:21,357 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:36:21,357 - game_logging - Energy: 100%, Night: 1, Hour: 5:00
+2025-05-29 11:36:24,367 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:36:24,367 - game_logging - Energy: 100%, Night: 1, Hour: 5:00
+2025-05-29 11:36:27,377 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:36:27,377 - game_logging - Energy: 100%, Night: 1, Hour: 5:00
+2025-05-29 11:36:29,872 - root - chica rolled 1 (<= 20) and moved to position 6.
+2025-05-29 11:36:29,872 - root - chica reached the final position: 5 (door).
+2025-05-29 11:36:30,388 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:36:30,388 - game_logging - Energy: 100%, Night: 1, Hour: 5:00
+2025-05-29 11:36:33,396 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:36:33,396 - game_logging - Energy: 100%, Night: 1, Hour: 5:00
+2025-05-29 11:36:34,810 - root - bonnie rolled 13 (<= 20) and moved to position 6.
+2025-05-29 11:36:34,810 - root - bonnie reached the final position: 5 (door).
+2025-05-29 11:36:36,406 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:36:36,406 - game_logging - Energy: 100%, Night: 1, Hour: 5:00
+2025-05-29 11:36:39,407 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:36:39,407 - game_logging - Energy: 100%, Night: 1, Hour: 5:00
+2025-05-29 11:36:42,422 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:36:42,422 - game_logging - Energy: 100%, Night: 1, Hour: 5:00
+2025-05-29 11:36:44,885 - root - chica rolled 11 (<= 20) and moved to position 6.
+2025-05-29 11:36:44,885 - root - chica reached the final position: 5 (door).
+2025-05-29 11:36:45,433 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:36:45,433 - game_logging - Energy: 100%, Night: 1, Hour: 5:00
+2025-05-29 11:36:46,834 - root - freddy rolled 3 (<= 20) and moved to position 6.
+2025-05-29 11:36:46,834 - root - freddy reached the final position: 5 (door).
+2025-05-29 11:36:48,437 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:36:48,437 - game_logging - Energy: 100%, Night: 1, Hour: 5:00
+2025-05-29 11:36:51,438 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:36:51,438 - game_logging - Energy: 100%, Night: 1, Hour: 5:00
+2025-05-29 11:36:54,448 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:36:54,448 - game_logging - Energy: 100%, Night: 1, Hour: 5:00
+2025-05-29 11:36:54,825 - root - bonnie rolled 10 (<= 20) and moved to position 6.
+2025-05-29 11:36:54,825 - root - bonnie reached the final position: 5 (door).
+2025-05-29 11:36:57,448 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:36:57,448 - game_logging - Energy: 100%, Night: 1, Hour: 5:00
+2025-05-29 11:36:59,900 - root - chica rolled 4 (<= 20) and moved to position 6.
+2025-05-29 11:36:59,900 - root - chica reached the final position: 5 (door).
+2025-05-29 11:37:00,463 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:37:00,463 - game_logging - Energy: 100%, Night: 1, Hour: 5:00
+2025-05-29 11:37:03,466 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:37:03,466 - game_logging - Energy: 100%, Night: 1, Hour: 5:00
+2025-05-29 11:37:04,950 - root - foxy rolled 1 (<= 10) and moved to position 6.
+2025-05-29 11:37:04,950 - root - foxy reached the final position: 5 (door).
+2025-05-29 11:37:06,477 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:37:06,477 - game_logging - Energy: 100%, Night: 1, Hour: 5:00
+2025-05-29 11:37:09,490 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:37:09,490 - game_logging - Energy: 100%, Night: 1, Hour: 5:00
+2025-05-29 11:37:12,493 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:37:12,493 - game_logging - Energy: 100%, Night: 1, Hour: 5:00
+2025-05-29 11:37:14,827 - root - bonnie rolled 13 (<= 20) and moved to position 6.
+2025-05-29 11:37:14,827 - root - bonnie reached the final position: 5 (door).
+2025-05-29 11:37:14,907 - root - chica rolled 5 (<= 20) and moved to position 6.
+2025-05-29 11:37:14,907 - root - chica reached the final position: 5 (door).
+2025-05-29 11:37:15,501 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:37:15,501 - game_logging - Energy: 100%, Night: 1, Hour: 6:00
+2025-05-29 11:37:18,511 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:37:18,511 - game_logging - Energy: 100%, Night: 1, Hour: 6:00
+2025-05-29 11:37:20,857 - root - freddy rolled 4 (<= 20) and moved to position 6.
+2025-05-29 11:37:20,857 - root - freddy reached the final position: 5 (door).
+2025-05-29 11:37:21,521 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:37:21,521 - game_logging - Energy: 100%, Night: 1, Hour: 6:00
+2025-05-29 11:37:24,529 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:37:24,529 - game_logging - Energy: 100%, Night: 1, Hour: 6:00
+2025-05-29 11:37:24,955 - root - foxy rolled 1 (<= 10) and moved to position 6.
+2025-05-29 11:37:24,955 - root - foxy reached the final position: 5 (door).
+2025-05-29 11:37:27,531 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:37:27,531 - game_logging - Energy: 100%, Night: 1, Hour: 6:00
+2025-05-29 11:37:29,909 - root - chica rolled 2 (<= 20) and moved to position 6.
+2025-05-29 11:37:29,909 - root - chica reached the final position: 5 (door).
+2025-05-29 11:37:30,538 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:37:30,538 - game_logging - Energy: 100%, Night: 1, Hour: 6:00
+2025-05-29 11:37:33,540 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:37:33,540 - game_logging - Energy: 100%, Night: 1, Hour: 6:00
+2025-05-29 11:37:34,841 - root - bonnie rolled 9 (<= 20) and moved to position 6.
+2025-05-29 11:37:34,841 - root - bonnie reached the final position: 5 (door).
+2025-05-29 11:37:34,966 - root - foxy rolled 2 (<= 10) and moved to position 6.
+2025-05-29 11:37:34,966 - root - foxy reached the final position: 5 (door).
+2025-05-29 11:37:36,551 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:37:36,551 - game_logging - Energy: 100%, Night: 1, Hour: 6:00
+2025-05-29 11:37:37,868 - root - freddy rolled 10 (<= 20) and moved to position 6.
+2025-05-29 11:37:37,868 - root - freddy reached the final position: 5 (door).
+2025-05-29 11:37:39,563 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:37:39,563 - game_logging - Energy: 100%, Night: 1, Hour: 6:00
+2025-05-29 11:37:42,575 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:37:42,575 - game_logging - Energy: 100%, Night: 1, Hour: 6:00
+2025-05-29 11:37:44,915 - root - chica rolled 3 (<= 20) and moved to position 6.
+2025-05-29 11:37:44,915 - root - chica reached the final position: 5 (door).
+2025-05-29 11:37:44,978 - root - foxy rolled 8 (<= 10) and moved to position 6.
+2025-05-29 11:37:44,978 - root - foxy reached the final position: 5 (door).
+2025-05-29 11:37:45,584 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:37:45,584 - game_logging - Energy: 100%, Night: 1, Hour: 6:00
+2025-05-29 11:37:48,597 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:37:48,597 - game_logging - Energy: 100%, Night: 1, Hour: 6:00

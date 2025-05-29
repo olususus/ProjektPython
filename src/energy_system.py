@@ -37,16 +37,16 @@ def energy_and_refresh_thread(state, chica_ai, bonnie_ai, freddy_ai, foxy_ai):
                    (state['door_attack_anim'] == 'bonnie' and state['left_closed']) or \
                    (state['door_attack_anim'] == 'freddy' and state['right_closed']):
                     if now - state['door_attack_start'] <= 1.5:
-                        state['door_attack'] = False
-                        state['door_attack_anim'] = None
-                        state['door_attack_start'] = None
-                        state['door_attack_time'] = None
                         if state['door_attack_anim'] == 'chica':
                             chica_ai.reset()
                         elif state['door_attack_anim'] == 'bonnie':
                             bonnie_ai.reset()
                         elif state['door_attack_anim'] == 'freddy':
                             freddy_ai.reset()
+                        state['door_attack'] = False
+                        state['door_attack_anim'] = None
+                        state['door_attack_start'] = None
+                        state['door_attack_time'] = None
                     else:
                         state['door_locked'] = True
                 if not state['door_locked'] and now - state['door_attack_start'] > 1.5:
@@ -81,8 +81,16 @@ def energy_and_refresh_thread(state, chica_ai, bonnie_ai, freddy_ai, foxy_ai):
                 # Losowy event: door_jam
                 if state.get('random_event') == 'door_jam':
                     print("[EVENT] Drzwi się zacinają! Nie możesz ich zamknąć!")
+                left_anim = None
+                right_anim = None
+                if chica_ai.position == 6:
+                    right_anim = 'chica'
+                if bonnie_ai.position == 6:
+                    left_anim = 'bonnie'
+                if freddy_ai.position == 6:
+                    right_anim = 'freddy'
                 from fnaf_terminal import load_room
-                print(load_room(state['left_closed'], state['right_closed']))
+                print(load_room(state['left_closed'], state['right_closed'], left_anim, right_anim))
                 print("[A] Zamknij/otwórz lewe drzwi | [D] Zamknij/otwórz prawe drzwi | [K] Kamery | [Q] Wyjdź")
             if state['energy'] == 0:
                 print("\nSkończyła się energia! Gra zakończona.")
