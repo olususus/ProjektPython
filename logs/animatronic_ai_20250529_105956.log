@@ -1,0 +1,12 @@
+2025-05-29 10:59:58,990 - root - Initialized chica AI with level 20, move interval 15, move range 20.
+2025-05-29 10:59:58,991 - root - Initialized bonnie AI with level 20, move interval 20, move range 20.
+2025-05-29 10:59:58,991 - root - Initialized freddy AI with level 20, move interval 17, move range 40.
+2025-05-29 10:59:58,991 - root - Initialized foxy AI with level 10, move interval 10, move range 20.
+2025-05-29 10:59:58,993 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 10:59:58,993 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:00:02,007 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:00:02,007 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:00:05,020 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:00:05,020 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
+2025-05-29 11:00:08,035 - game_logging - Door Status: Left Closed=False, Right Closed=False
+2025-05-29 11:00:08,035 - game_logging - Energy: 100%, Night: 1, Hour: 1:00
